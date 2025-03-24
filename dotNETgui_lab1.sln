@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNETgui_lab1", "dotNETgui_lab1\dotNETgui_lab1.csproj", "{DDF79A03-11B0-4DB6-8297-96203D1DA600}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF79A03-11B0-4DB6-8297-96203D1DA600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF79A03-11B0-4DB6-8297-96203D1DA600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF79A03-11B0-4DB6-8297-96203D1DA600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF79A03-11B0-4DB6-8297-96203D1DA600}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3184F5D-BFD5-4FF9-B4E9-D34A2CA436A7}
+	EndGlobalSection
+EndGlobal
