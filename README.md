@@ -83,7 +83,7 @@ public void TestSpecificInstance()
 }
 ```
 
-### **Test 4: Test z większą pojemnością plecaka**
+### **Test 4: Test sprawdzający czy plecak jest pełny**
 ```
 [TestMethod]
 public void TestKnapsackWithLargerCapacity()
@@ -95,14 +95,14 @@ public void TestKnapsackWithLargerCapacity()
 }
 ```
 
-### **Test 5: Test z minimalną pojemnością plecaka**
+### **Test 5: Test z większą pojemnością plecaka**
 ```
 [TestMethod]
-public void TestMinKnapsackCapacity()
+public void TestFullKnapsack()
 {
     Problem problem = new Problem(3, 42);
-    Result result = problem.Solve(1);
-    Assert.IsTrue(result.SelectedItems.Count > 0, "At least one item should be selected.");
-    Assert.IsTrue(result.TotalWeight <= 1, "Total weight should not exceed the knapsack's capacity of 1.");
+    Result result = problem.Solve(5);
+    Assert.IsTrue(result.TotalWeight <= 5, "Total weight should not exceed the knapsack's capacity.");
+    Assert.AreEqual(5, result.TotalWeight, "Total weight should exactly fill the knapsack capacity.");
 }
 ```
