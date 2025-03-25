@@ -72,17 +72,6 @@ public void TestEmptySolution()
 }
 ```
 
-### **Test 2: Test, czy rozwiązanie jest puste przy pojemności 0**
-```
-[TestMethod]
-public void TestEmptySolution()
-{
-    Problem problem = new Problem(5, 42);
-    Result result = problem.Solve(0);
-    Assert.AreEqual(0, result.SelectedItems.Count, "No items should be selected when capacity is zero.");
-}
-```
-
 ### **Test 3: Testowanie dla określonej instancji**
 ```
 [TestMethod]
